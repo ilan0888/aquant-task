@@ -10,8 +10,8 @@ const UserInput = ({addCoordinate, coordinates}) => {
     return (
         <div className={styles.container}>
             <h1>Coordinates Form</h1>
-            <input value={lat} type={'number'} placeholder={'insert latitude'} onChange={(e) => setLat(e.target.value)}/>
-            <input value={lng} type={'number'} placeholder={'insert longitude'} onChange={(e) => setLng(e.target.value)}/>
+            <input className={styles.input} value={lat} type={'number'} placeholder={'insert latitude'} onChange={(e) => setLat(e.target.value)}/>
+            <input className={styles.input} value={lng} type={'number'} placeholder={'insert longitude'} onChange={(e) => setLng(e.target.value)}/>
             <button onClick={handleAddCoordinate}>Add coordinate</button>
             <span className={'coordsWrapper'}>
                 {coordinates.length > 0 ?coordinates.map((coord) => <span>{`{lat: ${coord.lat}, lng:${coord.lng}}`}</span>)

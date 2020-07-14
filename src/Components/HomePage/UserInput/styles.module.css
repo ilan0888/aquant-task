@@ -3,3 +3,11 @@
     flex-direction: column;
     margin-right: 3em;
 }
+
+.input{
+    margin-top: 1em;
+}
+
+.container button{
+    margin-top: 1em;
+}

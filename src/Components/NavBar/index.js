@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 import {NavLink, Link} from "react-router-dom";
-import logo from '../../static/logo.png';
+import logo from '../../static/polygon.png';
 import country from '../../static/country.png';
 import NavBarSection from './NavBarSection';
 import homePageIcon from '../../static/homepageIcon.svg';

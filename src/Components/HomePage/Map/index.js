@@ -42,8 +42,6 @@ const App = ({coordinates}) => {
 
     return (
         <div className="App">
-            {coordinates.length === 0 && <span>please add at least 2 coordinates</span>}
-
             <LoadScript
                 id="script-loader"
                 googleMapsApiKey=""
