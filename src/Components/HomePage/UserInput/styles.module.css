@@ -6,8 +6,17 @@
 
 .input{
     margin-top: 1em;
+    padding: .5em 1em;
+    border-radius: 8px;
 }
 
 .container button{
     margin-top: 1em;
+    padding: .5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container button:hover{
+   opacity: .7;
 }
