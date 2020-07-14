@@ -1,0 +1,26 @@
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.linkContainer:nth-child(1){
+    margin-top: 0 !important;
+}
+
+.logo{
+    width: 5vw;
+    margin-top: 3em;
+}
+
+
+.userOptions{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.link{
+    color: white;
+    text-decoration: none;
+    margin-top: 2.5em;
+    display: flex;
+    align-items: center;
+    font-size: .8vw;
+}
+
+.activeLink{
+    color: #ff8787;
+    margin-top: 2.5em;
+    display: flex;
+    align-items: center;
+    font-size: .8vw;
+}
+
+.link > img{
+    margin-right: 1em;
+    width: 2em;
+}
+
+.activeLink > img{
+    margin-right: 1em;
+}
+

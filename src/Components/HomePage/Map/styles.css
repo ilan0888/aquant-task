@@ -1,0 +1,16 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    flex: 1;
+}
+
+.coordsWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.App-map {
+    height: 100%;
+    width: 100%;
+}
